@@ -1,52 +1,21 @@
-.heading{
-    font-size: 23px;
-    width: 100%;
-    margin: 0px;
-}
-
-.note{
-    font-size: 15px;
-    color: black;
-}
-
 body{
     background-size: cover;
 }
-
-.div_speed{
-    float: left;
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
 }
-
-.div_speed_img{
-    width: 200px;
-    border-radius: 100px;
+.note{
+    color: black;
+    font-size: 15px;
 }
-
-#speed{
-    font-size: 23px;
-    margin: 15px;
+.song_name{
+    font-size: 20px;
 }
-
-.div_volumn{
-    float: right;
-}
-
-.div_volumn_img{
-    width: 200px;
-    border-radius: 100px;
-}
-
-#volumn{
-    font-size: 23px;
-    margin: 15px;
-}
-
-.play_button{
-    width: 100px;
-    font-size: 25px;
-}
-
 canvas{
-    border: 5px solid whitesmoke;
+    background-color: #000000;
+    border: 5px solid white;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px #73cfd8;
 }
